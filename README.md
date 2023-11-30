@@ -1,4 +1,4 @@
-# xiaomi-merlin-kernel-ksu
+![Latest build](https://github.com/github/docs/actions/workflows/build-kernel.yml/badge.svg?branch=a13r-base)
 A action for build KernelSU to your kernel (Redmi Note 9 Kernel by default)
 
 

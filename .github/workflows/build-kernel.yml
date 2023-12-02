@@ -41,7 +41,7 @@ jobs:
     - name: Download Clang Toolchain
       run: |
         mkdir clang
-        git clone https://github.com/vijaymalav564/vortex-clang.git -b master --depth=1 clang
+        git clone https://github.com/kdrag0n/proton-clang.git -b master --depth=1 clang
     - name: Download mkbootimg tools
       if: env.MAKE_BOOT_IMAGE == 'true'
       run: |

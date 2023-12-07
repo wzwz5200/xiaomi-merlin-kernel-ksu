@@ -2,7 +2,7 @@
 [![Build Kernel](https://github.com/melamit/xiaomi-merlin-kernel-ksu/actions/workflows/build-kernel.yml/badge.svg)](https://github.com/melamit/xiaomi-merlin-kernel-ksu/actions/workflows/build-kernel.yml)
 
 ## How to build
-Kernel SU always update their source. So we need to patch our kernel again. But it is not always possible to make and update kernel everyday..
+KernelSU always update their source. So we need to patch our kernel again. But it is not always possible to make and update kernel everyday..
 So build kernel with KernelSU patch with your github account 
 
 1. Fork this repo.

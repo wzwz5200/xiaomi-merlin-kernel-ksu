@@ -14,7 +14,7 @@ So build kernel with KernelSU patch with your github account
 7. Then you sce Build kernel is running with yellow circle.
 8. Wait 10-16 minutes. The yellow circle should now a tick marked.
 9. Press it and in Artifacts section you should find 2 file.
-10. Download the first one (AnyKernel3-KernelSU-merlin-XXXXXXXXXXXX.zip)
+10. Download the first one (AnyKernel3-KernelSU-CODENAME-XXXXXXXXXXXX.zip)
 11. Flash it and enjoy your kernel with new ksu patch
 
 ## Credits

@@ -60,7 +60,7 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace
         cd android-kernel
-        git apply $GITHUB_WORKSPACE/kernel_workspace/KernelSU.patch
+        git apply $GITHUB_WORKSPACE/KernelSU.patch
         
 
     - name: Download source boot image

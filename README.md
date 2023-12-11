@@ -1,6 +1,7 @@
 ## An action for build kernel with KernelSU (Redmi Note 9 Kernel by default)
 [![Build Kernel](https://github.com/melamit/xiaomi-merlin-kernel-ksu/actions/workflows/build-kernel.yml/badge.svg)](https://github.com/melamit/xiaomi-merlin-kernel-ksu/actions/workflows/build-kernel.yml)
-
+<a href='https://t.me/void_developers' target="_blank"><img alt='Telegram' src='https://img.shields.io/badge/Channel-100000?style=flat&logo=Telegram&logoColor=white&labelColor=4BC9FF&color=282828'/></a>
+<a href='https://t.me/void_developers_chat' target="_blank"><img alt='Telegram' src='https://img.shields.io/badge/Chat-100000?style=flat&logo=Telegram&logoColor=white&labelColor=4BC9FF&color=282828'/></a>
 ## How to build
 KernelSU always update their source. So we need to patch our kernel again. But it is not always possible to make and update kernel everyday..
 So build kernel with KernelSU patch with your github account 

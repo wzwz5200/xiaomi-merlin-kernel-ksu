@@ -55,7 +55,8 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace
         git clone ${{ env.KERNEL_SOURCE }} -b ${{ env.KERNEL_SOURCE_BRANCH }} android-kernel --depth=1
-        export KERNEL_VERSION=$($(make kernelversion | cut -d. -f1,2)")
+        cd $GITHUB_WORKSPACE/kernel_workspace/android-kernel/
+        export KERNEL_VERSION=$(make kernelversion | cut -d. -f1,2)
     - name: Kernel patch
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace

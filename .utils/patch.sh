@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 cd $GITHUB_WORKSPACE/kernel_workspace/android-kernel/ || exit
 

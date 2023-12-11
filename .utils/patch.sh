@@ -6,7 +6,7 @@ KERNEL_VERSION="$(make kernelversion | cut -d. -f1,2)"
 export KERNEL_VERSION
 
 # shellcheck disable=SC2046
-if [ $($KERNEL_VERSION | cut -d. -f2) > 17 ]
+if [ "$($KERNEL_VERSION | cut -d. -f2)" > "17" ]
 then
     export KERNEL_PATCH_VERSION="4.14" 
 else

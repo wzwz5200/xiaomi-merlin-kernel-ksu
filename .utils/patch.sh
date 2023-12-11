@@ -13,7 +13,7 @@ else
     export KERNEL_PATCH_VERSION="4.19"
 fi
 
-if [ $KERNEL_PATCH_VERSION != undefined ]
+if [ $($KERNEL_PATCH_VERSION) != undefined ]
 then 
         cd $GITHUB_WORKSPACE/kernel_workspace
         cd android-kernel

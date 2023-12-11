@@ -22,7 +22,7 @@ index ac59664eaecf..bdd585e1d2cc 100644
 +		ksu_handle_execveat_sucompat(&fd, &filename, &argv, &envp, &flags);
  	return __do_execve_file(fd, filename, argv, envp, flags, NULL);
  }
- diff --git a/fs/open.c b/fs/open.c
+diff --git a/fs/open.c b/fs/open.c
 index 05036d819197..965b84d486b8 100644
 --- a/fs/open.c
 +++ b/fs/open.c

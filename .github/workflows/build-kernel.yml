@@ -55,12 +55,12 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace
         git clone ${{ env.KERNEL_SOURCE }} -b ${{ env.KERNEL_SOURCE_BRANCH }} android-kernel --depth=1
-
+        export KERNEL_VERSION=$($(make kernelversion | cut -d. -f1,2)")
     - name: Kernel patch
       run: |
         cd $GITHUB_WORKSPACE/kernel_workspace
         cd android-kernel
-        git apply $GITHUB_WORKSPACE/KernelSU.patch
+        # git apply $GITHUB_WORKSPACE/KernelSU/$KERNEL_VERSION/KernelSU.patch
         
 
     - name: Download source boot image

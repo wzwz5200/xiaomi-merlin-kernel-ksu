@@ -6,6 +6,10 @@
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
 > [!WARNING]
 > I am not responsible for you to break your device with kernel built with this action. You are proceeding on your own and claiming responsibility for yourself.
+
+> [!TIP]
+> You can always contribute to this repository but don't forget that pull requests with changed source links in config.env will be declined
+
 ## How to build
 KernelSU always update their source. So we need to patch our kernel again. But it is not always possible to make and update kernel everyday..
 So build kernel with KernelSU patch with your github account 

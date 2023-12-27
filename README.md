@@ -4,13 +4,17 @@
 <a href='https://t.me/void_developers_chat' target="_blank"><img alt='Telegram' src='https://img.shields.io/badge/Chat-100000?style=flat&logo=Telegram&logoColor=white&labelColor=4BC9FF&color=282828'/></a>
 [![GitHub release](https://img.shields.io/github/release/Void-Developers/xiaomi-merlin-kernel-ksu?include_prereleases=&sort=semver&color=blue)](https://github.com/Void-Developers/xiaomi-merlin-kernel-ksu/releases)
 [![License](https://img.shields.io/badge/License-MIT-blue)](#license)
-> [!WARNING]
+> [!CAUTION]
 > I am not responsible for you to break your device with kernel built with this action. You are proceeding on your own and claiming responsibility for yourself.
 
 > [!TIP]
 > You can always contribute to this repository but don't forget that pull requests with changed source links in config.env will be declined
 
 ## How to build
+
+> [!NOTE]
+> The minimal recommended version for building kernel with KernelSU patch is 4.14
+
 KernelSU always update their source. So we need to patch our kernel again. But it is not always possible to make and update kernel everyday..
 So build kernel with KernelSU patch with your github account 
 
